@@ -15,5 +15,6 @@ public interface ServiceInterface {
     List<Client> listeClients(Long idBoutique);
     List<Boutique> listeBoutiques(Long idCentre);
     public List<Client> listeDeClientsParCategorie(Categorie categorie);
+    void nbreClientParGenre();
 
 }

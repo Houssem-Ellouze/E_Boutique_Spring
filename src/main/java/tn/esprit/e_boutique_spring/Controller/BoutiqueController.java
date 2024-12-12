@@ -49,6 +49,10 @@ public class BoutiqueController {
     public List<Client> listeDeClientsParCategorie(@PathVariable Categorie cat){
         return service.listeDeClientsParCategorie(cat);
     }
+//    @GetMapping("/nbreClientParGenre/{ nbrFeminin}/{nbrMasculin}")
+//    public void nbreClientParGenre(){
+//        service.nbreClientParGenre ();
+//    }
 
 
 
